@@ -44,3 +44,14 @@ else:
     print("de approving.")
     value = [-x for x in value]
     print(value)
+A = type("A",(),{"x" : 100})
+print(type(A))
+if type(A) == type:
+    value = [-z for z in value]
+    print(value)
+    print("typed matched easy... peasy")
+else:
+    print("nothing happened be happy.")
+
+
+
